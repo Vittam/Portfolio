@@ -1,101 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Vittam Meshram | Software Engineer</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
-  <section class="hero">
-    <h1>Vittam Meshram</h1>
-    <h2>Software Engineer | Python Backend & Automation</h2>
-    <p>
-      I build Python automation, analyze production issues using SQL,
-      and support high-availability systems for enterprise clients like UBS.
-    </p>
-    <div class="cta">
-      <a href="#projects">View Projects</a>
-      <a href="Vittam_Meshram_Resume.pdf" target="_blank">Download Resume</a>
-    </div>
-  </section>
+  <div class="container">
 
-  <section id="about">
-    <h3>About Me</h3>
-    <p>
-      Software Engineer with 3+ years of experience working close to
-      production systems. My work focuses on Python scripting,
-      SQL analysis, automation, and resolving live incidents.
-    </p>
-    <p>
-      I enjoy converting manual tasks into automated solutions and
-      performing deep root cause analysis. I am actively transitioning
-      into a full-time Backend / Software Development role.
-    </p>
-  </section>
+    <!-- HERO -->
+    <section class="hero">
+      <h1>Vittam Meshram</h1>
+      <h2>Software Engineer • Python Backend • Automation</h2>
 
-  <section id="skills">
-    <h3>Skills</h3>
-    <ul>
-      <li><strong>Languages:</strong> Python, C, C++, PowerShell, SQL</li>
-      <li><strong>Backend:</strong> Python Automation, SQL</li>
-      <li><strong>Tools:</strong> Linux, Git, Geneos, AppDynamics</li>
-      <li><strong>Production:</strong> L2/L3 Support, RCA, Incident Management</li>
-    </ul>
-  </section>
-
-  <section id="experience">
-    <h3>Experience</h3>
-    <h4>Software Engineer — HCLTech (Client: UBS)</h4>
-    <p>Sep 2022 – Present | Pune, India</p>
-    <ul>
-      <li>Automated operational checks and reports using Python</li>
-      <li>Used SQL to investigate production issues and perform RCA</li>
-      <li>Worked with monitoring tools to prevent recurring incidents</li>
-      <li>Handled L2/L3 production incidents while meeting SLA</li>
-      <li>Guided junior team members on Python and SQL</li>
-    </ul>
-  </section>
-
-  <section id="projects">
-    <h3>Projects</h3>
-
-    <div class="project">
-      <h4>Automated SQL Reporting & Email Distribution</h4>
       <p>
-        Python script that runs SQL queries, converts results into Excel,
-        and automatically emails reports using Outlook.
+        Software Engineer with 3+ years of experience working close to
+        production systems. I build Python automation, analyze data using SQL,
+        and help enterprise applications stay reliable.
       </p>
-      <p><strong>Tech:</strong> Python, SQL, Excel, Outlook</p>
-    </div>
 
-    <div class="project">
-      <h4>SPI Monitoring using Geneos</h4>
-      <p>
-        Implemented SPI monitoring using advanced SQL to track
-        application metrics and configure alerts.
-      </p>
-      <p><strong>Tech:</strong> SQL, Geneos</p>
-    </div>
-  </section>
+      <div class="cta">
+        <a class="primary" href="#projects">View My Work</a>
+        <a class="secondary" href="Vittam_Meshram_Resume.pdf" target="_blank">
+          Download Resume
+        </a>
+      </div>
+    </section>
 
-  <section id="certifications">
-    <h3>Certifications</h3>
-    <ul>
-      <li>AWS Certification – Agentic AI & Generative AI</li>
-      <li>Python Programming – University of Michigan</li>
-      <li>Linux Certification – IIT Bombay</li>
-      <li>Agentic AI Design Patterns – Analytics Vidhya</li>
-    </ul>
-  </section>
+    <!-- ABOUT -->
+    <section>
+      <h3>About Me</h3>
+      <div class="card">
+        <p>
+          I currently work as a Software Engineer at HCLTech supporting
+          enterprise applications for UBS. My daily work involves Python
+          scripting, SQL analysis, monitoring, and handling live production
+          incidents.
+        </p>
+        <p>
+          I enjoy solving real-world problems, automating repetitive tasks,
+          and performing deep root cause analysis. I am now actively
+          transitioning into a Backend / Software Development role.
+        </p>
+      </div>
+    </section>
 
-  <section id="contact">
-    <h3>Contact</h3>
-    <p>Email: <a href="mailto:vittammeshram@gmail.com">vittammeshram@gmail.com</a></p>
-    <p>LinkedIn: <a href="#">linkedin.com/in/yourprofile</a></p>
-    <p>Location: Amravati / Pune, India</p>
-  </section>
+    <!-- SKILLS -->
+    <section>
+      <h3>Skills</h3>
+      <div class="skills-grid">
+
+        <div class="card">
+          <h4>Programming</h4>
+          <ul>
+            <li>Python</li>
+            <li>C / C++</li>
+            <li>SQL</li>
+            <li>PowerShell</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h4>Backend & Tools</h4>
+          <ul>
+            <li>Linux</li>
+            <li>Git</li>
+            <li>Geneos</li>
+            <li>AppDynamics</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h4>Production Systems</h4>
+          <ul>
+            <li>L2 / L3 Support</li>
+            <li>Incident Management</li>
+            <li>Root Cause Analysis</li>
+            <li>Monitoring & Alerts</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+      <h3>Experience</h3>
+      <div class="card">
+        <p class="role">
+          Software Engineer — HCLTech (Client: UBS)
+        </p>
+        <p class="muted">
+          Sep 2022 – Present | Pune, India
+        </p>
+        <ul>
+          <li>Automated operational checks and reports using Python</li>
+          <li>Used SQL queries to investigate production issues and data problems</li>
+          <li>Worked with monitoring tools to detect issues early</li>
+          <li>Handled L2/L3 production incidents while meeting SLA commitments</li>
+          <li>Guided junior team members on Python scripting and SQL basics</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <h3>Projects</h3>
+
+      <div class="card">
+        <h4>Automated SQL Reporting & Email Distribution</h4>
+        <p>
+          Built a Python script that runs SQL queries, converts results into
+          Excel reports, and automatically emails them to users via Outlook.
+          This removed manual reporting and improved turnaround time.
+        </p>
+        <p class="muted">Python • SQL • Excel • Outlook</p>
+      </div>
+
+      <div class="card">
+        <h4>SPI Monitoring using Geneos</h4>
+        <p>
+          Implemented SPI monitoring using advanced SQL to track key
+          application metrics and configured alerts to help teams respond
+          faster to production issues.
+        </p>
+        <p class="muted">SQL • Geneos • Production Monitoring</p>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section>
+      <h3>Certifications</h3>
+      <div class="card">
+        <ul>
+          <li>AWS Certification – Agentic AI & Generative AI</li>
+          <li>Python Programming – University of Michigan</li>
+          <li>Linux Certification – IIT Bombay</li>
+          <li>Agentic AI Design Patterns – Analytics Vidhya</li>
+          <li>GenAI for Everyone – Analytics Vidhya</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact">
+      <h3>Contact</h3>
+      <div class="card">
+        <p>📞 Phone: <a href="tel:+917620054449">+91 76200 54449</a></p>
+        <p>📧 Email: <a href="mailto:vittammeshram@gmail.com">vittammeshram@gmail.com</a></p>
+        <p>💼 LinkedIn:
+          <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
+            linkedin.com/in/yourprofile
+          </a>
+        </p>
+        <p>📍 Location: Amravati / Pune, India</p>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      © 2025 Vittam Meshram • Built with clarity & purpose
+    </footer>
+
+  </div>
 
 </body>
 </html>
